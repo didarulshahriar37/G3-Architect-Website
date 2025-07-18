@@ -247,6 +247,19 @@ main > section{
     }
 }
 
+/* footer section style */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    color: #424242;
+    margin :130px 240px 216px 240px;
+}
+
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .teams, .features{
